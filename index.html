@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Simple Interest Calculator</title>
-  </head>
-  <body>
+
+<head>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Simple Interest Calculator</title>
+</head>
+
+<body>
+  <center>
     <div class="maindiv">
       <h1>Simple Interest Calculator</h1>
 
-      Amount
+      <label><strong>Amount</strong></label>
       <!-- input for principal -->
       <input type="number" oninput="checkPositive()" id="principal" />
       <br />
-      Rate
+      <label><strong>Rate</strong></label>
       <!-- Slider input for Rate -->
-      <input
-        type="range"
-        onchange="updateRate()"
-        id="rate"
-        min="1"
-        max="20"
-        value="10.25"
-        step="0.25"
-      />
+      <input type="range" onchange="updateRate()" id="rate" min="1" max="20" value="10.25" step="0.25" />
       <!-- To display corresponding value due to slider  -->
-      <span id="rate_val"> 10.25%</span>
+      <span id="rate_val"> <strong>10.25%</strong></span>
       <br />
-      No. of Years
+      <label><strong>No of years</strong></label>
       <!-- input to select the number of years -->
       <select id="years">
         <option value="1">1</option>
@@ -39,17 +34,20 @@
         <option value="7">7</option>
         <option value="8">8</option>
         <option value="9">9</option>
-        <option value="10">10</option></select
-      ><br />
-      Interest : <span id="result"></span><br />
+        <option value="10">10</option>
+      </select><br />
+      <label><strong>Interest</strong></label>
+      <span id="result"></span><br />
       <!-- button to calculate and display the result -->
-      <button  class="click" onclick="compute()">Compute Interest</button>
+      <button class="click" onclick="compute()">Compute Interest</button>
       <span id="result"></span>
-      
+
       <footer>
-      <p class="copyright">&#169; Everyone Can Get Rich</p> 
+        <p class="copyright">&#169; Everyone Can Get Rich</p>
         <p>This Calculator belongs to Vaibhav Singh</p>
       </footer>
     </div>
-  </body>
+  </center>
+</body>
+
 </html>
