@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
+  
 
 <head>
   <script src="script.js"></script>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Dancing+Script:wght@400;500&family=Dongle:wght@300&family=Island+Moments&family=Kdam+Thmor+Pro&family=Lobster&family=Merriweather:wght@300&family=Mochiy+Pop+P+One&family=Mukta:wght@200&family=Neonderthaw&family=Sedgwick+Ave&display=swap" rel="stylesheet">
   <title>Simple Interest Calculator</title>
 </head>
 
 <body>
   <center>
     <div class="maindiv">
-      <h1>Simple Interest Calculator</h1>
-
+      <h1 class="heading">Simple Interest Calculator</h1>
+        <hr class="line">
+        <div class="input">
       <label><strong>Amount</strong></label>
       <!-- input for principal -->
       <input type="number" oninput="checkPositive()" id="principal" />
@@ -44,9 +49,10 @@
 
       <footer>
         <p class="copyright">&#169; Everyone Can Get Rich</p>
-        <p>This Calculator belongs to Vaibhav Singh</p>
+        <p>This Calculator belongs to <br> Vaibhav Singh</p>
       </footer>
     </div>
+  </div>
   </center>
 </body>
 
