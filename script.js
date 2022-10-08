@@ -32,3 +32,22 @@ function compute() {
     year +
     "</mark><br>";
 }
+function compute1() {
+  var principal = Number(document.getElementById("principal").value);
+  var rate = Number(document.getElementById("rate").value);
+  var years = Number(document.getElementById("years").value);
+  var year = new Date().getFullYear() + parseInt(years);
+  var interest = (principal * Math.pow((1+rate),years)); 
+  var amount = principal + interest;
+  document.getElementById("result").innerHTML =
+    "If you deposit <mark>" +
+    principal +
+    ",</mark><br>at an interest rate of <mark>" +
+    rate +
+    "%,</mark><br>You will receive an amount of <mark>" +
+    interest +
+    ",</mark><br>in the year <mark>" +
+    year +
+    "</mark><br>";
+}
+
