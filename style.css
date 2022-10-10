@@ -23,7 +23,7 @@ body {
 
 /* Styling for the calculator body  */
 .maindiv {
-  margin-top: 180px;
+  margin-top: 80px;
   align-items: center;
   background-color: white;
   color: black;
@@ -81,3 +81,8 @@ body {
   margin-top: -220px;
 }
 
+button {
+  background-color: aqua;
+  padding: 5px;
+  margin-top: 10px;
+}
