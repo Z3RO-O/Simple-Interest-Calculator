@@ -49,6 +49,7 @@ function compute1() {
   var year = new Date().getFullYear() + parseInt(years);
   var interest = (principal * Math.pow((1+rate),years)); 
   var amount = principal + interest;
+  
   document.getElementById("result").innerHTML =
     "If you deposit <mark>" +
     principal +
