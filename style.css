@@ -23,7 +23,7 @@ body {
 
 /* Styling for the calculator body  */
 .maindiv {
-  margin-top: 180px;
+  margin-top: 80px;
   align-items: center;
   background-color: white;
   color: black;
@@ -31,7 +31,7 @@ body {
   padding: 20px;
   border-radius: 25px;
   align-content: center;
-  height: 500px;
+  /* height: 500px; */
   font-size: 23px;
   box-shadow: rgba(0, 0, 0, 0.541) 0px 54px 55px, rgba(0, 0, 0, 0.541) 0px -12px 30px, rgba(0, 0, 0, 0.541) 0px 4px 6px, rgba(0, 0, 0, 0.541) 0px 12px 13px, rgba(0, 0, 0, 0.541) 0px -3px 5px;
 }
@@ -81,3 +81,8 @@ body {
   margin-top: -220px;
 }
 
+button {
+  background-color: aqua;
+  padding: 5px;
+  margin-top: 10px;
+}

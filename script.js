@@ -31,7 +31,17 @@ function compute() {
     ",</mark><br>in the year <mark>" +
     year +
     "</mark><br>";
+
+    var getFloat = document.getElementById("result")
+    let btn = document.createElement("button");
+    btn.innerHTML = "Reset";
+    getFloat.appendChild(btn);
+
+    btn.addEventListener('click', () => {
+	   window.location.reload()
+    })
 }
+
 function compute1() {
   var principal = Number(document.getElementById("principal").value);
   var rate = Number(document.getElementById("rate").value);
@@ -39,6 +49,7 @@ function compute1() {
   var year = new Date().getFullYear() + parseInt(years);
   var interest = (principal * Math.pow((1+rate),years)); 
   var amount = principal + interest;
+  
   document.getElementById("result").innerHTML =
     "If you deposit <mark>" +
     principal +
@@ -49,5 +60,13 @@ function compute1() {
     ",</mark><br>in the year <mark>" +
     year +
     "</mark><br>";
-}
 
+    var getFloat = document.getElementById("result")
+    let btn = document.createElement("button");
+    btn.innerHTML = "Reset";
+    getFloat.appendChild(btn);
+
+    btn.addEventListener('click', () => {
+	   window.location.reload()
+    })
+}
