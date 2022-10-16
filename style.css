@@ -1,23 +1,24 @@
 /* Styling to complete body  */
-*{
+* {
   margin: 0;
   padding: 0;
 }
 body {
   background-color: rgb(221, 211, 211);
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   color: white;
-  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);}
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
 
 /* Styling used in h1 tag to display name of App */
 .heading {
   color: rgb(0, 0, 0);
   margin-top: 13px;
   font-size: 25px;
-  font-family: 'work-sans';
+  font-family: "work-sans";
   word-spacing: 5px;
 }
-.line{
+.line {
   margin-top: 20px;
 }
 
@@ -33,50 +34,50 @@ body {
   align-content: center;
   /* height: 500px; */
   font-size: 23px;
-  box-shadow: rgba(0, 0, 0, 0.541) 0px 54px 55px, rgba(0, 0, 0, 0.541) 0px -12px 30px, rgba(0, 0, 0, 0.541) 0px 4px 6px, rgba(0, 0, 0, 0.541) 0px 12px 13px, rgba(0, 0, 0, 0.541) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.541) 0px 54px 55px,
+    rgba(0, 0, 0, 0.541) 0px -12px 30px, rgba(0, 0, 0, 0.541) 0px 4px 6px,
+    rgba(0, 0, 0, 0.541) 0px 12px 13px, rgba(0, 0, 0, 0.541) 0px -3px 5px;
 }
-.input{
+.input {
   margin-top: 30px;
 }
 
 .click {
   background-color: aqua;
   width: 10rem;
-  padding: 0.35rem 0 ;
-  margin:0.5rem 0;
+  padding: 0.35rem 0;
+  margin: 0.75rem;
   border-radius: 0.35rem;
 }
-.click:hover{
+.click:hover {
   background-color: #6468df;
-  box-shadow:2px 5px #7eace3;
-  color:white;
+  box-shadow: 2px 5px #7eace3;
+  color: white;
 }
-
 
 .copyright {
   text-align: center;
 
   margin: 10px;
 }
-.btn{
+.btn {
   display: flex;
   margin: 5px;
   padding: 10px;
   padding-right: 5px;
 }
-#principal{
+#principal {
   border-radius: 4px;
   height: 20px;
   border-color: blueviolet;
 }
-#years{
+#years {
   height: 20px;
-
 }
-.img{
-  height:100px;
-  width:140px;
-  float:left;
+.img {
+  height: 100px;
+  width: 140px;
+  float: left;
   margin-left: -660px;
   margin-top: -220px;
 }
